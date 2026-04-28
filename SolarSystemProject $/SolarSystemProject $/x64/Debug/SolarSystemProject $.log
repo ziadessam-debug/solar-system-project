@@ -1,0 +1,19 @@
+﻿  SolarSystemProject $.cpp
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutInit referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutInitWindowPosition referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutPostRedisplay referenced in function "void __cdecl mouseButton(int,int,int,int)" (?mouseButton@@YAXHHHH@Z)
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutReshapeFunc referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutKeyboardFunc referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutMouseFunc referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutMotionFunc referenced in function main
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutTimerFunc referenced in function "void __cdecl timer(int)" (?timer@@YAXH@Z)
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutGet referenced in function "void __cdecl initGL(void)" (?initGL@@YAXXZ)
+SolarSystemProject $.obj : error LNK2019: unresolved external symbol glutBitmapCharacter referenced in function "void __cdecl drawHUD(void)" (?drawHUD@@YAXXZ)
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\graphics\SolarSystemProject $\x64\Debug\SolarSystemProject $.exe : fatal error LNK1120: 16 unresolved externals
